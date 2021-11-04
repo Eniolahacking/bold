@@ -64,15 +64,15 @@ logo = """
 \033[1;97m             @@@•••••••••••••••••••••••••@@@ \033[1;0m
 \033[1;97m            @@@•••••••••••••••••••••••••@@@ \033[1;0m
 \033[1;97m           @@@•••••••••••••••••••••••••@@@ \033[1;0m
-\033[1;97m          @@@••••••••••Bil••••••@@@ \033[1;0m
-\033[1;97m         @@@••••••••••Dogar•••••••@@@ \033[1;0m
+\033[1;97m          @@@••••••••••itz efk•••••@@@ \033[1;0m
+\033[1;97m         @@@••••••••••hacker eniolahacking•••••••@@@ \033[1;0m
 \033[1;97m        @@@•••••••••••••••••••••••••@@@ \033[1;0m
 \033[1;97m       @@@•••••••••••••••••••••••••@@@ \033[1;0m
 \033[1;97m      @@@•••••••••••••••••••••••••@@@ \033[1;0m
 \033[1;97m--------------------------------------------------
-\033[1;93m➤\033[1;97m Author   : Bilal-Dogar
-\033[1;93m➤\033[1;97m Github   : https://github.com/BilalDogar12
-\033[1;93m➤\033[1;97m Fb Id  : https://www.facebook.com/profile.php?id=100064197562020
+\033[1;93m➤\033[1;97m Author   : eniolahacking
+\033[1;93m➤\033[1;97m Github   : https://github.com/eniolahacking
+\033[1;93m➤\033[1;97m Fb Id  : https://www.facebook.com/itz.efk.3
 \033[1;97m--------------------------------------------------
 """
 
@@ -85,19 +85,19 @@ def tech_abm():
     print('')
     print("\033[1;97m--------------------------------------------------")
     username = raw_input("\033[1;97m[+]\033[1;97m Username :\033[1;97m ")
-    if username =="Tiger":
+    if username =="efk":
         os.system("clear")
         print logo
-        print ("[+] Username : Tiger (Correct)")
+        print ("[+] Username : efk (Correct)")
         passwordss = raw_input("\033[1;97m[+]\033[1;97m Password :\033[1;97m ")
-        if passwordss =="Devil":
+        if passwordss =="eniola":
             os.system("clear")
             print logo
             logging()
             os.system("clear")
             print logo 
-            print ("\033[1;97m[+]\033[1;92m Username : Tiger\033[1;92m (Correct)")
-            print ("\033[1;97m[+]\033[1;92m Password : Devil\033[1;92m (Correct)")
+            print ("\033[1;97m[+]\033[1;92m Username : efk\033[1;92m (Correct)")
+            print ("\033[1;97m[+]\033[1;92m Password : eniola\033[1;92m (Correct)")
 	    print("\033[1;97m--------------------------------------------------")
             time.sleep(1)
             print('')
@@ -110,12 +110,12 @@ def tech_abm():
             login_choice()
         else:
             print ("\t [!] Password : "+passwordss+" (Wrong)")
-	    os.system('xdg-open https://www.facebook.com/profile.php?id=100064197562020')
+	    os.system('xdg-open https://www.facebook.com/itz.efk.3')
             time.sleep(1)
             tech_abm()
     else:
         print ("\t [!] Username : "+username+" (Wrong)")
-	os.system('xdg-open https://m.facebook.com/Xami.Devil')
+	os.system('xdg-open https://www.facebook.com/itz.efk.3')
         time.sleep(1)
         tech_abm()
 	
@@ -513,24 +513,24 @@ def bangla_india():
     os.system("python3 .loading.md")
     os.system('clear')
     print logo
-    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Bangladesh Cloning")
-    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom India Cloning")
+    print("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Nigeria Cloning")
+    print("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom usa Cloning")
     print("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mBack")	
     print("\033[1;97m--------------------------------------------------")
     bangla_india_man()
 def bangla_india_man():
     option = raw_input("\n╰─➣ ")
     if option =="1":
-        bangla()
+        Nigeria()
     if option =="2":
-        indiaa()
+        usa()
     if option =="0":	
           menu()
     else:
           print ("[!] Please Select a Valid Option")
-          bangla_india_man()		
+          Nigeria_usa_man()		
 	
-def bangla():
+def Nigeria():
 	global token
 	os.system("clear")
 	try:
@@ -545,7 +545,7 @@ def bangla():
 	os.system("python3 .loading.md")
         os.system('clear')
         print logo
-	print("\t   Bangladesh Menu")
+	print("\t   Nigeria Menu")
 	print("\033[1;97m--------------------------------------------------")
 	print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;93mCrack From Friend List")
 	print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;93mCrack From Public ID")
