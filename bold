@@ -43,15 +43,11 @@ c2 = "\033[0;97m""\033[1;32m""\033[0;97m"
 c3 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
-logo = 
-\033[1;97m#######    #######   #          #
-\033[1;97m#         #         #       # 
-\033[1;97m#######   #######   #   #
-\033[1;97m#          #       #       #
-\033[1;97m#######  #         #           
+def logo():
+	os.system('echo "\n  ███████  ▒ ▒ ▒ ███████     █           █\n  █                               █                      █         █\n  █                               █                      █      █\n  ███████              ███████    █   █\n█                               █                      █       █\n   ███████              █                      █         █\n    ▒   ▒▒ ░░░▒ ▒ ░ ▒ ▒ ░░  ░      ░\n    ░   ▒░  ░ ░ ░ ░ ░ ▒ ░░      ░\n        ░  ░  ░ ░     ░         ░\n            ░\n  \n    ╔═════════════════════════════╗\n    ║ TOOL NAME: { uck }        ║\n    ║ AUTHOR   : ENIOLA HACKING        ║\n    ║ GITHUB   : git.io/eniolahacking     ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	     
 #def reg():
     os.system('clear')
-    print logo
+    print logo()
     print ''
     print '\033[1;31;1mTake The Free Approval For Login'
     print ''
