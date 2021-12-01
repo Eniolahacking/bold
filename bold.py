@@ -43,7 +43,7 @@ c2 = "\033[0;97m""\033[1;32m""\033[0;97m"
 c3 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
-logo = ('echo -e "\n\n    .S   .S_SSSs     .S_SsS_S.   \n   .SS  .SS~SSSSS   .SS~S*S~SS.  \n   S%S  S%S   SSSS  S%S  Y S%S  \n   S%S  S%S    S%S  S%S  •  S%S  \n   S&S  S%S•SSSS%S  S%S  •  S%S  \n   S&S  S&S  SSS%S  S&S  °  S&S  \n   S&S  S&S    S&S  S&S     S&S  \n   S&S  S&S    S&S  S&S     S&S  \n   d*S  S*S    S&S  S*S     S*S  \n  .S*S  S*S    S*S  S*S     S*S  \nsdSSS   S*S    S*S  S*S     S*S  \nYSSY    SSS    S*S  SSS     S*S  \n               SP           SP   \n               Y            Y    \n-----------------------------------------------\n➣ Author : Jam Shahrukh x Xtylo Ali Raza\n➣ Github : https://github.com/Blacklisted\n➣ Fb Page : https://m.facebook.com/Jam Shahrukh Official\n➣ Ref By : (Stylish Queen x Muskan Noor x Zahra Zohaib)\n➣ Ref By :     (Ahmed Gondal x ASAD x Janzada Khan) \n-----------------------------------------------" | lolcat')  
+logo = ('echo "\n  ███████  ▒ ▒ ▒ ███████     █           █\n  █                               █                      █         █\n  █                               █                      █      █\n  ███████              ███████    █   █\n█                               █                      █       █\n   ███████              █                      █         █\n    ▒   ▒▒ ░░░▒ ▒ ░ ▒ ▒ ░░  ░      ░\n    ░   ▒░  ░ ░ ░ ░ ░ ▒ ░░      ░\n        ░  ░  ░ ░     ░         ░\n            ░\n  \n    ╔═════════════════════════════╗\n    ║ TOOL NAME: { uck }        ║\n    ║ AUTHOR   : ENIOLA HACKING        ║\n    ║ GITHUB   : git.io/eniolahacking     ║\n    ╚═════════════════════════════╝" | lolcat -a -d 2 -s 50')	
 def reg():
     os.system('clear')
     print logo
